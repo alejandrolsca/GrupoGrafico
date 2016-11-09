@@ -20,7 +20,11 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "scripts/site.js",
+        "scripts/google.js"
+        ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
