@@ -1,4 +1,4 @@
-import { NgModule }     from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
@@ -20,10 +20,10 @@ import { LaserEngravingComponent } from './laser-engraving/laser-engraving.compo
       { path: 'signage', component: SignageComponent },
       { path: 'manuals-forms-advertising', component: ManualsFormsAdvertisingComponent },
       { path: 'laser-engraving', component: LaserEngravingComponent },
-    ])
+    ], { useHash: true })
   ],
   exports: [
     RouterModule
   ]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
