@@ -22,8 +22,8 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
-        "assets/scripts/site.js",
-        "assets/scripts/google.js"
+        "scripts/site.js",
+        "scripts/google.js"
         ],
       "environments": {
         "source": "environments/environment.ts",
